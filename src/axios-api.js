@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const getApi = axios.create({
-  baseURL: 'http://localhost:8000',
+  baseURL: 'https://bongradio.herokuapp.com',
   timeout: 1000
 })
 
